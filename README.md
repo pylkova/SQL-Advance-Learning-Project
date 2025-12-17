@@ -20,24 +20,31 @@
 ├─ README.md            # общий README проекта
 ├─ SQL/
 │  ├─ notes/
-│  │  ├─ 01_sql_basics.md
+│  │  ├─ 01_basics.md
 │  │  ├─ 02_joins.md
-│  │  ├─ 03_cte_subqueries.md
-│  │  ├─ 04_window_functions.md
-│  │  ├─ 05_dates_nulls.md
+│  │  ├─ 03_cte.md
+│  │  ├─ 04_windows.md
+│  │  ├─ 05_dates.md
 │  │  └─ 06_performance.md
-│  └─ queries/
-│  	  ├─ 01_basics.sql
-│     ├─ 02_joins.sql
-│     ├─ 03_cte.sql
-│     ├─ 04_windows.sql
-│     ├─ 05_dates.sql
-│     └─ 06_optimization.sql
+│  ├─ queries/
+│  │  ├─ 01_basics.sql
+│  │  ├─ 02_joins.sql
+│  │  ├─ 03_cte.sql
+│  │  ├─ 04_windows.sql
+│  │  ├─ 05_dates.sql
+│  │  └─ 06_performance.sql
+│  └─ data/
+│
 ├─ Git/
+│  ├─queries/
 │  └─ notes/
 │     ├─ 01_setup.md
 │     ├─ 02_basic_flow.md
-│     └─ ...
+│     ├─ 03_branches.md
+│     ├─ 04_history_reset_rebase.md
+│     ├─ 05_remote_github.md
+│     └─ 06_common_problems.md
+│
 └─ .gitignore
 ```
 ---
