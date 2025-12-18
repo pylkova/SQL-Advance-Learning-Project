@@ -1,12 +1,14 @@
 	
 	One time:
 
-	•	git config --global user.name
+	git init
 
-	•	git config --global user.email
 
-	•	git config --global init.defaultBranch main
+	git config --global user.name
 
-	•	git config --global core.editor
+	git config --global user.email
 
-git init
+	git config --global init.defaultBranch main
+
+	git config --global core.editor
+
