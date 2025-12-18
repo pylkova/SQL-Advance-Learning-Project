@@ -17,3 +17,18 @@
 
 **git diff COMMIT ID** - difference between the current state of the repository and the specified commit
 
+**git checkout**
+
+moving between *commits* 
+    git checkout <hash commit #2>
+    git checkout HEAD^^
+    git checkout HEAD~2
+    git checkout master/main
+
+moving between *file versions*
+    git checkout <HEAD^^> -- file1 file2
+    git checkout --file 1          # to version in HEAD  # for untracked or modified
+
+
+moving between *branches*
+

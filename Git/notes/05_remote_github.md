@@ -1,4 +1,4 @@
-git remote add origin
+git remote add origin <url>
 
 git push -u origin main
 
@@ -9,3 +9,6 @@ typical mistakes:
 	•	rejected
 	•	diverged
 	•	wrong branch
+
+	local - remote
+	add - commit
