@@ -1,8 +1,15 @@
-git remote add origin <url>
+## **git remote**
 
-git push -u origin main
+**git remote -v** 
+view the list of repositories
 
-git pull
+**git remote add origin <url>**
+
+## **git push** - ->
+git push 
+git push -u origin main/master
+
+## **git pull** - <-
 
 typical mistakes:
 

@@ -7,7 +7,9 @@
 
 **git add .** - stage all changes in the current directory and its subdirectories
 
-**git commit -m "message"**
+**git commit -m "meaningful message"**
+**git commit -a -m**     # ❗️ only for modified files 
+                         # ❗️ not for untracked!!!
 
 **git diff** - difference between untracked changes and the latest commit
 
