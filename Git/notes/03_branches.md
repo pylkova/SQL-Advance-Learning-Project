@@ -42,3 +42,25 @@ Option 2
 1) git checkout master
 2) git rebase add-feature1
 
+## **git rebase -i**
+git rebase -i HEAD~3 
+ = to change last 3 commits
+
+Commands
+p, pick = use commit (to chenge the order of commits)
+r, reword = use commit,  but edit the edit message
+e, edit = use commit, but meld into previous commit
+
+## **git cherry-pick**
+
+git checkout production 
+
+git cherry-pick commit hash
+
+git cherry-pick --no-commit (~ git add)
+
+git cherry-pick -x commit hash (commit hash in commit message)
+
+git cherry-pick --edit
+
+git cherry-pick --signoff commit hash (add commit author name)
